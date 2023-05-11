@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://example.com/imagen-de-fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color:darkgray ;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#map {
+  width: 500px;
+  height: 300px;
+  background-image: url('img/mapa.jpg');
+  background-size: cover;
+}
+
+h2 {
+  color: #666;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select, button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+#consulta-btn {
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#consulta-btn:hover {
+  background-color: #23527c;
+}
